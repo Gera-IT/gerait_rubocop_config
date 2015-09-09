@@ -1,3 +1,7 @@
+## Intro
+
+This is config file for RuboCop. It was customised to fit our company requirements. Out of the box Robocop will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Please read it.
+
 ## Installation
 
 Add [RuboCop](https://github.com/bbatsov/rubocop) to `Gemfile`:
