@@ -71,3 +71,10 @@ Style/Next
 Style/OptionHash
 Style/Send
 ```
+
+## Tips
+
+Generate randomly named file with offenses count:
+```
+$ rubocop --format offenses --out $(uuidgen).txt
+```
