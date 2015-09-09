@@ -23,6 +23,8 @@ Run RuboCop:
 $ rubocop
 ```
 
+Use `--rails` option to run additional rails-specific checks
+
 ## Use RuboCop with Jenkins
 
 ### Requirements
@@ -53,6 +55,8 @@ Configure your Jenkins job to perform this command during build:
 ```
 rubocop --require rubocop/formatter/checkstyle_formatter --format RuboCop::Formatter::CheckstyleFormatter --no-color --out tmp/rubocop_checkstyle.xml || true
 ```
+Use `--rails` option to run additional rails-specific checks
+
 Add post-build action 'Publish Checkstyle analysis results' and configure Checkstyle results to 'tmp/rubocop_checkstyle.xml'.
 
 ## Disabled Cops
